@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:300,regular,500,600,700);
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-container {
+  min-height: 100dvh;
+  max-height: 100dvh;
+  background: rgb(3, 0, 42);
+  background: radial-gradient(
+    circle,
+    rgba(3, 0, 42, 1) 5%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
